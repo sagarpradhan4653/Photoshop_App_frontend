@@ -1,38 +1,128 @@
+/* *{
+  box-sizing: border-box;
+} */
+
+.canvass{
+  display: block;
+  height: -webkit-fill-available;
+  width: inherit;
+  flex-shrink: initial;
+  margin-right: 20%;
+  /* background: #7134ffe1; */
+  background-color: #333;
+  /* background-position-x: left; */
+  box-shadow: inset 0 0 5rem rgb(0 0 0 / 80%);
+  
+}
+
+
+
+#login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 680px;
+  box-shadow: inset 0 0 5rem rgb(0 0 0 / 80%);
+  }
+
 .App {
+  background-color: black;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#imageval{
+  color-interpolation-filters: linearRGB;
+  background: lightcyan;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.text-center{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#buttonclick{
+  display: flex;
+  flex-direction: row;
+  background:dark;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  /* width: 100%; */
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#p{
+  text-emphasis-color: white;
+  color: aliceblue;
 }
+
+
+/* }
+ #canvas{
+  margin: auto;
+  background: brown;
+  width:100%;
+}  */
+
+
+.container{
+  /* background-color:#58495c; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  /* background:#58495c; */
+  /* background: black; */
+  background: rgb(75, 4, 4);
+}
+
+.container ul {
+  padding: 0%;
+  margin: 0%;
+}
+.container li{
+  color: white;
+}
+
+a{
+  text-decoration:none ;
+  color:black;
+}
+
+.items {
+  color: black;
+  margin-left: 10%;
+
+
+}
+
+.btn{
+  cursor: pointer;
+  color:white;
+}
+
+.item{
+  margin: 10%;
+  padding: 5%;
+}
+
+
+
+/* .navbar-brand{
+  background:#58495c;
+} */
+
+
+#header-h{
+  background:maroon;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+}
+
+
+
+/* .cover-container{
+  background: dark;
+} */
