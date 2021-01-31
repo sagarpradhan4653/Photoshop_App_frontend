@@ -35,10 +35,10 @@ function Login(props) {
             props.history.push('/Editor') // push toward editor file if the token is generated
         })
 
-        const interval = setInterval(() => {  // passing the username invalid msg to login page with one sec time interval
-            {props.sendToAuth && setUserName("Username and Password Invalid")}
-        }, 1000);
-        return () => clearInterval(interval);
+        // const interval = setInterval(() => {  // passing the username invalid msg to login page with one sec time interval
+        //     {props.sendToAuth && setUserName("Username and Password Invalid")}
+        // }, 1000);
+        // return () => clearInterval(interval);
         
     }
 
