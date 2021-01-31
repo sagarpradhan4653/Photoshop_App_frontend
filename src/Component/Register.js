@@ -13,7 +13,7 @@ function Register(props) {
             password: e.currentTarget['password'].value
         }        
 
-        axios.post('http://127.0.0.1:8000/users/',userDetailsPost) // passing the userdetails into database
+        axios.post('https://sagarphotoshop.herokuapp.com/users/',userDetailsPost) // passing the userdetails into database
         .then(response=>{
             console.log(response.data);
             
