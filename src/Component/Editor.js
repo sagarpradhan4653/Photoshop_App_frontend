@@ -244,7 +244,6 @@ function Editor(props) {
                                         <option value="yellow">Yellow</option>
                                         <option value="orange">Orange</option>
                                         <option value="brown">Brown</option>
-                                        <option value="gray"><i className="fas fa-couch"></i></option>
                                 </select>
                                 <button className="btn btn-outline-danger" onClick={allowText}>Display</button>
                                 <button className="btn btn-outline-primary" onClick={()=>{arrowRight(x)}}><FontAwesomeIcon icon={faArrowCircleRight} /></button>
